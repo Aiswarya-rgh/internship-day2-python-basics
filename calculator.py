@@ -15,7 +15,7 @@ try:
     print("2.Substarct")
     print("3.Multipy")
     print("4.Divide")
-
+    
     choice=input("Enter your choice(1-4):")
     if choice=="1":
         print("result:",add(num1,num2))
@@ -30,7 +30,6 @@ try:
             print("result",divide(num1,num2))
     else:
         print("Invalid Choice!")
-
 except ValueError:
     print("Enter valid number")
     
